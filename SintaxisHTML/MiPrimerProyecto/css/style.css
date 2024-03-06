@@ -1,0 +1,49 @@
+
+      h1 {
+            font-size: 40px;
+            color: #000;
+        }
+
+        h1 span {
+            color: #037bc0
+        }
+
+        h2 span {
+            color: green
+        }
+
+        section  h2 {
+
+
+        }
+
+        main h3 {
+         
+        }
+
+
+      a {
+            text-transform: uppercase;
+        }
+
+        a {
+            text-transform: lowercase;
+        }
+
+        nav a {
+            text-transform:  uppercase;
+        }
+        .navegacion a {
+
+            text-transform: lowercase;
+        }
+
+
+        #navegacion-principal a{
+            text-transform: capitalize;
+
+        }
+
+
+
+
