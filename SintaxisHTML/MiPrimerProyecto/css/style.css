@@ -1,4 +1,15 @@
 
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+      
+
+
+
+  
       h1 {
             font-size: 40px;
             color: #000;
@@ -22,27 +33,48 @@
         }
 
 
-      a {
-            text-transform: uppercase;
-        }
-
-        a {
-            text-transform: lowercase;
-        }
-
-        nav a {
-            text-transform:  uppercase;
-        }
-        .navegacion a {
-
-            text-transform: lowercase;
-        }
-
-
+    
         #navegacion-principal a{
-            text-transform: capitalize;
+            text-transform: uppercase;
 
         }
+
+
+        .enlace  {
+            text-transform: uppercase;
+            font-weight: bold;
+            text-decoration: none;
+            color: #037bc0;
+
+        }
+
+        .color-rojo {
+
+            color: red;
+        }
+
+        .navegacion-home a {
+            text-transform: uppercase;
+
+
+        }
+
+/** Box Model**/
+        .sobre-nosotros {
+            background-color: magenta;
+            width: 200px;
+            padding: 25px;
+            box-sizing: border-box;
+        }
+        .sobre-empresa {
+            background-color: blue;
+            width: 500px;
+            padding: 100px;
+          
+        }
+
+
+
 
 
 

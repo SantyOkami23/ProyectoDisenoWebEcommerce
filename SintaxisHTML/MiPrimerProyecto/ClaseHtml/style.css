@@ -1,0 +1,15 @@
+
+h2 {
+    color: hsla(0, 100%, 50%, 0.5); /* Rojo semi-transparente */
+  }
+
+
+  h2 span{
+    color: green;
+
+  }
+
+   a {
+
+    text-transform: uppercase;
+   }
