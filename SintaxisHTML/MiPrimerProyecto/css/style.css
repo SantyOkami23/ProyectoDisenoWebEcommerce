@@ -6,20 +6,7 @@ html {
     box-sizing: inherit;
   }
       
-
-
-
-  
-      h1 {
-            font-size: 40px;
-            color: #000;
-        }
-
-        h1 span {
-            color: #037bc0
-        }
-
-        h2 span {
+   h2 span {
             color: green
         }
 
@@ -60,6 +47,7 @@ html {
         }
 
 /** Box Model**/
+
         .sobre-nosotros {
             background-color: magenta;
             width: 200px;
@@ -72,6 +60,54 @@ html {
             padding: 100px;
           
         }
+/**Globales**/
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navegacion-home{
+
+    border-color:#e1e1e1;
+    border-top-style:solid ;
+    border-width: 1px;
+    /* border-style:solid ;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    */
+
+    padding: 20px 0px 20px 0px; 
+   /* border-top: 1px solid #e1e1e1;*/
+  
+
+}
+
+
+
+
+/**Header y navegacion**/
+
+        .nombre-sitio{
+            margin-top: 50px;
+            margin-bottom: 50px;
+            text-align: center;
+
+        }
+
+/** Display inline y block**/
+
+p {
+    background-color: yellow;
+    width: 500px;
+    height:100px ;
+    display: inline-block;
+   
+/**  display:inline;**/
+   
+/**    display: block;**/
+
+}
 
 
 
